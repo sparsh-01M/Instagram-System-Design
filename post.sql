@@ -37,3 +37,9 @@ CREATE TABLE follow_unfollow(
   following_id INT,
   time_stamp TIMESTAMP
 );
+
+INSERT INTO post VALUES
+  (00001, 'p0001', 'nature', 'url1', 22.09),
+  (00002, 'p0002', 'gym', 'url2', 22.19),
+  (00003, 'p0003', 'mountain', 'url3', 23.54),
+  (00004, 'p0004', 'love', 'url4', 15.43);
